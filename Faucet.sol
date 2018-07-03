@@ -6,7 +6,7 @@ contract Faucet2 {
 
         require(key == 6);
 
-		require(withdraw_amount <= 1000000000000000000)
+		require(withdraw_amount <= 1000000000000000000);
 
 
     	msg.sender.transfer(withdraw_amount);
